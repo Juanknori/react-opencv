@@ -71,7 +71,7 @@ const FaceDetected = () => {
         </Typography>
 
         <Grid container>
-          <Grid item xs={6} display='flex' justifyContent='center' alignItems='center'>
+          <Grid item xs={12} sm={6} display='flex' justifyContent='center' alignItems='center'>
             <Webcam
               ref={webcamRef}
               className="webcam"
@@ -79,7 +79,7 @@ const FaceDetected = () => {
               screenshotFormat="image/jpeg"
             />
           </Grid>
-          <Grid item xs={6} display='flex' justifyContent='center' alignItems='center'>
+          <Grid item xs={12} sm={6} display='flex' justifyContent='center' alignItems='center'>
             <img className="inputImage" alt="input" ref={imgRef} />
             <canvas className="outputImage" ref={faceImgRef} />
             {!modelLoaded && <div>Loading Haar-cascade face model...</div>}
