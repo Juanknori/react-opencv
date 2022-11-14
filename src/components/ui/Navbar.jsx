@@ -12,8 +12,8 @@ export const Navbar = () => {
         <Toolbar>
                 <RouterLink to='/'>
                     <Link display='flex' alignItems='center' underline='none'>
-                        <Typography variant='h6'>Next |</Typography>
-                        <Typography sx={{ ml: 0.5 }}>OpenCV</Typography>
+                        <Typography variant='h6'>Artil |</Typography>
+                        <Typography sx={{ ml: 0.5 }}>Robotics</Typography>
                     </Link>
                 </RouterLink>
 
